@@ -36,8 +36,10 @@
 	h1,h2,h3,h4,h5,h6
 	{
 		font-size:2em;
+		font-family: 'Roboto', sans-serif;
 		font-weight: 600;
 		color: #000000;
+		text-align: center;
 	}
 	
 		h2
@@ -234,7 +236,7 @@
 		{
 			margin: 0;
 			/* padding: 0em 0em 1.5em 0em; */
-			/* list-style: none; */
+			list-style: square;
 		}
 		
 			ul.default li
@@ -243,7 +245,7 @@
 				font-size: 0.95em;
 				border-top: 1px solid;
 				border-color: rgba(0,0,0,.1);
-
+				list-style: disc;
 			}		
 		
 			ul.default li:first-child
@@ -260,6 +262,7 @@
 			/* padding: 2em 0em 1.5em 0em; */
 			/* border-top: 1px solid; */
 			border-color: rgba(0,0,0,.1);
+			list-style:disc;
 		}
 		
 		ul.style li:first-child
@@ -1106,3 +1109,9 @@ div
 			padding-right: 0px;
 			/* max-width: 100em ; */
 		  }
+
+		  li{
+			list-style:disc;
+		  }
+
+		 
